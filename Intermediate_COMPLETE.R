@@ -6,7 +6,7 @@
 # (b) ACAD.txt : amphibian records from Acadia National Park
 # (c) REDW_records.txt : incomplete records from Redwood National Park
 # (d) REDW_species.txt : species information from Redwood National Park
-# (e) parks_updated.txt : park details
+# (e) parks.txt : park details
 
 # Goal: Clean and reshape these files, combine them with our existing data set
 
