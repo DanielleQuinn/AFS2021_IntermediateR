@@ -36,6 +36,6 @@ data_complete <- read.delim("ACAD.txt") %>%
               # 6 join with redwood_species
               left_join(read.delim("REDW_species.txt"))) %>%
   # 6. join with park details
-  left_join(read.delim("parks_updated.txt"))
+  left_join(read.delim("parks.txt"))
 
 glimpse(data_complete)
